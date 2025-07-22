@@ -1,0 +1,24 @@
+body {
+  background-color: #ffffff;
+}
+h1 {
+  color: rgb(83 78 78 / 100%);
+  border-width: 3px;
+}
+
+h4 {
+  color: #09f
+}
+
+footer{
+  p{
+    color: white;
+  }
+  ul{
+    color: white
+  }
+  h5{
+    color: white
+  }
+  background-color: rgb(25 30 35 / 95%);
+}
