@@ -1,9 +1,12 @@
 body {
   background-color: #ffffff;
+  font-family: "Open Sans", "Source Sans Pro", "Segoe UI", Arial, sans-serif;
 }
+
 h1 {
   color: rgb(83 78 78 / 100%);
   border-width: 3px;
+  font-family: "Poppins", "Segoe UI", "Roboto", Arial, sans-serif;
 }
 
 h4 {
@@ -21,4 +24,35 @@ footer{
     color: white
   }
   background-color: rgb(25 30 35 / 95%);
+}
+
+#show {
+  background: orange;
+  color: white;
+  border: 0;
+  border-radius: 7px;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 1.0s;
+}
+
+#show:hover {
+  background: darkorange;
+  transform: scale(1.1);
+}
+
+#Inicio {
+  background: rgba(171 171 171 / 30%);
+  color: orange;
+  border: 0;
+  border-radius: 7px;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: all 0.3s ease, transform 1.0s;
+}
+
+#Inicio:hover {
+  background: rgba(171 171 171 / 50%); 
+  color: white; 
+  transform: scale(1.1)
 }
