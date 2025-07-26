@@ -4,42 +4,59 @@ body {
   font-family: "Open Sans", "Source Sans Pro", "Segoe UI", Arial, sans-serif;
 }
 
-h1 {
-  color: rgb(83 78 78 / 100%);
-  border-width: 3px;
+/* Estilo para el header principal */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-family: "Poppins", "Segoe UI", "Roboto", Arial, sans-serif;
 }
 
-h4 {
-  color: #09f
+/* Logo */
+.logo img {
+  width: 150px;
 }
 
-footer{
-  p{
-    color: white;
-  }
-  ul{
-    color: white
-  }
-  h5{
-    color: white
-  }
-  background-color: rgb(25 30 35 / 95%);
+/* Menú de navegación */
+.nav-menu {
+  display: flex;
+  gap: 20px;
 }
 
-#show {
-  background: orange;
-  color: white;
+.nav-menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: color 0.2s ease;
+}
+
+.nav-menu a:hover {
+  color: #09f;
+  font-weight: bold;
+}
+
+/* Contenedor de botones */
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Botón #Inicio (Login) */
+#Inicio {
+  background: #f5f5f5;
+  color: #555;
   border: 0;
   border-radius: 7px;
   padding: 12px 24px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 1.0s;
+  transition: background-color 0.3s ease;
 }
 
-#show:hover {
-  background: darkorange;
-  transform: scale(1.1);
+#Inicio:hover {
+  background-color: #ddd;
 }
 
 #Inicio {
@@ -409,5 +426,94 @@ padding: 3px 20px;
   background-color: #007acc; /* Celeste más oscuro al pasar el mouse */
 }
 
+.footer-principal {
+  background-color: #1c1c1c; /* Fondo gris oscuro/negruzco */
+  color: #ccc;
+  padding: 50px 20px;
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+}
+
+.footer-contenido {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.footer-logo {
+  flex: 1 1 200px;
+}
+
+.footer-logo img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.footer-column {
+  flex: 1 1 150px;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-column input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+}
+
+.footer-social {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-social a img {
+  width: 24px;
+  margin: 0 10px;
+  opacity: 0.7;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.footer-social a img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.footer-column ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.footer-column ul li a:hover {
+  transform: scale(1.05);
+  color: #fff;
+}
 
 
