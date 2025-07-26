@@ -165,3 +165,76 @@ padding: 3px 20px;
     border-radius: 10px;
 }
 
+.TiposPokemon{
+  text-align: center;
+  position: relative;
+}
+
+.TiposPokemon h3{
+    color: #666;
+}
+
+.ImagenesTipos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.ImagenesTipos a {
+    display: block;
+    width: 200px; 
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    border-radius: 10px; 
+}
+
+.ImagenesTipos img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* EFECTOS INTERACTIVOS */
+.ImagenesTipos a:hover {
+    transform: scale(1.1); /* Se agranda al pasar el mouse */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); /* Sombra bonita */
+    z-index: 10;
+    position: relative;
+}
+
+.ImagenesTipos a:active {
+    transform: scale(0.95); /* Se encoge al hacer click */
+}
+
+/* OPCIONAL: Efecto de brillo */
+.ImagenesTipos a:hover img {
+    filter: brightness(1.1) contrast(1.1);
+}
+
+.Tipo1{
+  position: relative;
+}
+
+.Tipo2{
+  position: relative;
+}
+
+.Tipo3{
+  position: relative;
+}
+
+.manualmente{
+  position: relative;
+  text-align: center;
+}
+
+.buscador{
+  text-align: center;
+  position: relative;
+}
+
