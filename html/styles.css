@@ -92,7 +92,6 @@ padding: 3px 20px;
   float: right;
 }
 
-/* Aca es la parte de info que me interesa */
 .principio {
     background-color: #f5f5f5;
     width: 100%;
@@ -199,19 +198,17 @@ padding: 3px 20px;
     border-radius: 10px;
 }
 
-/* EFECTOS INTERACTIVOS */
 .ImagenesTipos a:hover {
-    transform: scale(1.1); /* Se agranda al pasar el mouse */
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); /* Sombra bonita */
+    transform: scale(1.1);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
     z-index: 10;
     position: relative;
 }
 
 .ImagenesTipos a:active {
-    transform: scale(0.95); /* Se encoge al hacer click */
+    transform: scale(0.95);
 }
 
-/* OPCIONAL: Efecto de brillo */
 .ImagenesTipos a:hover img {
     filter: brightness(1.1) contrast(1.1);
 }
@@ -237,4 +234,180 @@ padding: 3px 20px;
   text-align: center;
   position: relative;
 }
+
+.buscador {
+  max-width: 400px;
+  margin: 40px auto;
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+}
+
+.buscador label {
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-left: 150px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  border: 2px solid #f7a400;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-buscador {
+  flex: 1;
+  padding: 12px 16px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.btn-buscar {
+  background-color: #f7a400;
+  color: #fff;
+  padding: 12px 18px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-buscar:hover {
+  background-color: #e59400;
+}
+
+.comunidad-section {
+  background-color: #f4f4f4; 
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.comunidad-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.comunidad-section p {
+  font-size: 16px;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+
+.comunidad-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comunidad-stats li {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.comunidad-stats li:hover {
+  transform: scale(1.1);
+}
+
+.comunidad-stats a {
+  text-decoration: none;
+  color: #222;
+  font-size: 16px;
+}
+
+.comunidad-stats img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.comunidad-stats span {
+  display: block;
+  line-height: 1.4;
+}
+
+.Squirtle{
+  text-align: center;
+}
+
+.evolutiva-section {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+  color: #333;
+}
+
+.evolutiva-section h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #09f;
+}
+
+.evolutiva-section p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.link-mas-info {
+  display: inline-block;
+  font-weight: bold;
+  color: #96305a;
+  text-decoration: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.link-mas-info:hover {
+  transform: scale(1.05);
+  color: #e59400;
+}
+
+.mobile-app-section {
+  background-color: #ffffff;
+  color: #333;
+  text-align: center;
+  padding: 50px 20px;
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+}
+
+.mobile-app-section h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.btn-demo {
+  background-color: orange;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.btn-demo:hover {
+  transform: scale(1.05);
+  background-color: #007acc; /* Celeste más oscuro al pasar el mouse */
+}
+
+
 
